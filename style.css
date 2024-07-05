@@ -5,3 +5,15 @@
 .card {
     width: 300px;
 }
+
+.ascii-art {
+    color: rgb(41, 177, 0);
+    font-family: monospace;
+    white-space: pre;
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+    
+}
