@@ -1,36 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Favorites</title>
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
             rel="stylesheet"
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="style.css" />
+            crossorigin="anonymous"/>
+        <link rel="stylesheet" href="style.css"/>
     </head>
     <body class="bg-dark text-light">
         <header>
-            <div class="container text-center text-light">
+            <div class="container text-center text-light mb-5">
                 <div class="row">
                     <nav class="navbar h6 shadow-lg my-auto p-2">
                         <div class="col">
-                            <a href="./gallery.html" class="nav-link"
-                                >Gallery</a
-                            >
+                            <a href="./index.html" class="nav-link">Home</a>
                         </div>
                         <div class="col">
-                            <a href="./holidays.html" class="nav-link"
-                                >Holidays</a
-                            >
+                            <a href="./gallery.html" class="nav-link">Gallery</a>
                         </div>
                         <div class="col">
-                            <a href="./favorites.html" class="nav-link"
-                                >Favorites</a
-                            >
+                            <a href="./holidays.html" class="nav-link">Holidays</a>
                         </div>
                         <div class="col">
                             <a href="./about.html" class="nav-link">About</a>
@@ -41,57 +34,62 @@
         </header>
         <main>
         <!--table of favorites-->
-        <h1></h1>
-        <table class="table table-hover mt-5">
-            <thead>
-                <tr>
-                    <th scope="col"></th>
-                    <th scope="col"></th>
-                    <th scope="col"></th>
-                    <th scope="col"></th>
+        <div class="container">
+        <h1 class="mx-auto text-center my-5 display-1 py-5">Favorite Teas</h1>
+        </div>
+        <div class="container mt-5 justify-content-center">
+            <div class="col">
+        <table class="table table-dark table-striped mt-5 w-">
+            <thead class="table-light">
+                <tr">
+                    <th scope="col">#</th>
+                    <th scope="col">Tea type</th>
+                    <th scope="col">Country</th>
+                    <th scope="col">Black/Green/Herbal</th>
                 </tr>
             </thead>
-            <thead>
-                <tr>
+            <tbody>
+                <tr">
                     <th scope="row">1</th>
-                    <th>test</th>
-                    <th>test</th>
-                    <th>test</th>
+                    <td>Oolong</td>
+                    <td>China</td>
+                    <td>Black</td>
                 </tr>
-            </thead>
-            <thead>
-                <tr>
+                <tr">
                     <th scope="row">2</th>
-                    <th>test</th>
-                    <th>test</th>
-                    <th>test</th>
+                    <td>Genmaicha</td>
+                    <td>Japan</td>
+                    <td>Green</td>
                 </tr>
-            </thead>
-            <thead>
                 <tr>
                     <th scope="row">3</th>
-                    <th>test</th>
-                    <th>test</th>
-                    <th>test</th>
+                    <td>Earl Grey</td>
+                    <td>England</td>
+                    <td>Black</td>
                 </tr>
-            </thead>
-            <thead>
                 <tr>
                     <th scope="row">4</th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <td>Rooibos</td>
+                    <td>Australia</td>
+                    <td>Herbal</td>
                 </tr>
-            </thead>
-            <thead>
                 <tr>
-                    <th scope="row">5</th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th scope="row">4</th>
+                    <td>Jasmine</td>
+                    <td>China</td>
+                    <td>Green</td>
                 </tr>
-            </thead>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Darjeeling</td>
+                    <td>India</td>
+                    <td>Black</td>
+                </tr>
+        </tbody>
         </table>
+        
+    </div>
+    </div>
         </main>
         <footer></footer>
         <script
