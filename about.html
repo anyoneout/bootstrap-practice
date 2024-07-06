@@ -40,12 +40,14 @@
 
                 <div class="container text-center m-5 mx-auto" style="width: 225px;">
                     <div class="row mx-auto p-2 ">
-                        <div class="col p-3" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="margin" style="width: 200px; background-color: rgb(248, 185, 126); border: 1px dashed black;">
-                        <div class="col p-3 border border-black" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="border" style="background-color: rgb(252, 252, 165)">
-                            <div class="col p-3" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="padding" style="background-color: rgb(188, 216, 164); border: 1px dashed black;">
-                                <div class="col border border-black text-dark" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="element" style="background-color: lightblue">element</div>
+                        <div class="col p-3" data-bs-toggle="popover" data-bs-placement="left" data-bs-trigger="hover focus" data-bs-content="margin" style="width: 200px; background-color: rgb(248, 185, 126); border: 1px dashed black;">
+                        <div class="col p-3 border border-black" data-bs-placement="top" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="border" style="background-color: rgb(252, 252, 165)">
+                            <div class="col p-3" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="hover focus" data-bs-content="padding" style="background-color: rgb(188, 216, 164); border: 1px dashed black;">
+                                <div class="col border border-black text-dark" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="hover focus" data-bs-content="element" style="background-color: lightblue">element</div>
                             </div>
                         </div>
+                    </div>
+                    </div>
                     </div>
                     </div>
                 </div>
@@ -53,7 +55,7 @@
                 <div class="container">
                     <div class="row"></div>
                     <div class="col mx-auto" style="width: 400px">
-                    <p>I wanted to see if I could make a selectable element like the one found in the "computed" tab in developer tools. It's a series of divs with padding that I applied background color to. Unforunately, the popovers don't clear as the divs are nested. I wasn't able to find a way to clear them because of this.  </p>
+                    <p class="fs-5 text-start">I wanted to see if I could make a selectable element like the one found in the "computed" tab in developer tools. It's a series of divs with padding that I applied background color to. Unforunately, the popovers don't clear as the divs are nested. I wasn't able to find a way to clear them because of this.  </p>
                 </div>
             </div>
         </main>
